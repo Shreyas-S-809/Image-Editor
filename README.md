@@ -42,6 +42,14 @@ python -m venv venv && venv\Scripts\activate   # Windows
 pip install -r requirements.txt
 streamlit run app.py
 ```
+---
+
+Sample Images : 
+
+![Image 3](images/image.png)
+
+![Image 2](images/image(2).jpg)
+
 
 ---
 

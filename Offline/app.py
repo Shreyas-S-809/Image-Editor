@@ -595,10 +595,10 @@ else:
     col_a, col_b = st.columns(2)
     with col_a:
         st.markdown("**Original**")
-        st.image(st.session_state.original, width='stretch')
+        st.image(st.session_state.original)
     with col_b:
         st.markdown("**Edited**")
-        st.image(edited, width='stretch')
+        st.image(edited)
 
     # AI result display
     if st.session_state.ai_result is not None:
@@ -606,7 +606,7 @@ else:
         st.markdown("**🤖 AI Result**")
         ai_c1, ai_c2 = st.columns([3, 1])
         with ai_c1:
-            st.image(st.session_state.ai_result, width='stretch')
+            st.image(st.session_state.ai_result)
         with ai_c2:
             if st.button("✅ Use AI result as image", use_container_width=True):
                 push_undo(st.session_state.original)
@@ -625,7 +625,7 @@ else:
     st.markdown("---")
     with st.expander("📊 Histogram", expanded=False):
         hist_img = compute_histogram_image(edited)
-        st.image(hist_img, caption="RGB Histogram", width='stretch')
+        st.image(hist_img, caption="RGB Histogram")
 
     # Download
     st.markdown("---")
