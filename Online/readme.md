@@ -3,7 +3,11 @@
 A clean, lightweight image editor that runs directly in your browser.  
 No installation, no login, no API keys — just upload and edit.
 
-🔗 **[Open Live App](#)** *(add your Streamlit Cloud link here)*
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+
+
+🔗 **[Open Live App](#)** *((https://image-editor-ys.streamlit.app/))*
+
 
 ---
 
@@ -20,6 +24,7 @@ No installation, no login, no API keys — just upload and edit.
 - 1-step Undo and full Reset
 - Download as PNG or JPG with quality control
 - No data stored — your images stay private
+- All the images which you upload and edit will be stored in cache memory of browser.
 
 ---
 
@@ -29,7 +34,7 @@ If you want to run it locally instead of using the cloud version:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/image-editor.git
+git clone https://github.com/Shreyas-S-809/Image-Editor
 cd image-editor/onlne
 
 # 2. Create a virtual environment
@@ -74,7 +79,7 @@ Opens at `http://localhost:8501`.
 ## 📁 Project Structure
 
 ```
-onlne/
+Online/
 ├── app.py              # Complete application
 ├── requirements.txt    # Dependencies
 └── README.md
@@ -94,13 +99,7 @@ onlne/
 
 ## 💻 Want More Features?
 
-Check out the **[Offline Advanced Version](../offline/)** — includes AI background removal, denoising, batch processing, advanced filters, and more.
-
----
-
-## 📄 License
-
-Open source under the [MIT License](LICENSE).
+Check out the **[Offline Advanced Version](../Offline/)** — includes AI background removal, denoising, batch processing, advanced filters, and more.
 
 ---
 
