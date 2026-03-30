@@ -48,7 +48,7 @@ Sample Images :
 
 ![Image 3](images/image.png)
 
-![Image 2](images/image(2).jpg)
+![Image 2](images/image(2).png)
 
 
 ---
